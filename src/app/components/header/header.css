@@ -13,14 +13,11 @@
 }
 
 .logo-img {
-  max-height: 40px;
+  max-height: 44px;
   width: auto;
   display: block;
-}
-
-[data-theme="dark"] .logo-img {
-  /* Turns the logo completely white in dark mode for maximum contrast */
-  filter: brightness(0) invert(1);
+  border-radius: 8px;
+  object-fit: contain;
 }
 
 .nav-links {
